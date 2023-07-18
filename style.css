@@ -21,6 +21,7 @@ header{
 .name{
        float: left;
    }
+
 section {
     min-height: 100vh;
     padding: 64px 24px 96px;
@@ -47,4 +48,7 @@ footer a {
     right: 0;
     text-align: center;
     box-shadow: 0 -2px 4px -2px black;
+  }
+  header,footer{
+    background-color:bisque;
   }
