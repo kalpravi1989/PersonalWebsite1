@@ -2,27 +2,32 @@
         font-family: sans-serif;
         font-size: 16px; 
       }
+body{
+  background-color:azure;
+}
 header{
     box-sizing: border-box;
     font-size: 1rem;
+    
     position: fixed;
     height: 64px;
     padding: 16px;
     box-shadow: 0 2px 4px -2px black;
     left: 0;
     right: 0;
+    display:flex;
+    justify-content: space-between;
 }
 .links{
     float: right;
 }
-.links a {
-    margin-left: .25em;
-}
+
 .name{
+  font-weight: bold;
        float: left;
    }
 
-section {
+   main {
     min-height: 100vh;
     padding: 64px 24px 96px;
     box-shadow: 0 0 12px -2px black;
@@ -50,5 +55,5 @@ footer a {
     box-shadow: 0 -2px 4px -2px black;
   }
   header,footer{
-    background-color:bisque;
+    background-color:aquamarine;
   }
