@@ -1,0 +1,59 @@
+ html {
+        font-family: sans-serif;
+        font-size: 16px; 
+      }
+body{
+  background-color:azure;
+}
+header{
+    box-sizing: border-box;
+    font-size: 1rem;
+    
+    position: fixed;
+    height: 64px;
+    padding: 16px;
+    box-shadow: 0 2px 4px -2px black;
+    left: 0;
+    right: 0;
+    display:flex;
+    justify-content: space-between;
+}
+.links{
+    float: right;
+}
+
+.name{
+  font-weight: bold;
+       float: left;
+   }
+
+   main {
+    min-height: 100vh;
+    padding: 64px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    font-family: 'Open Sans', sans-serif;
+  }
+a .img_link {
+    height: 32px;
+  }
+
+footer a {
+    
+    margin-right: 64px;
+   text-decoration: none;
+  }
+
+  footer {
+    box-sizing: border-box;
+    position: fixed;
+    height: 64px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-shadow: 0 -2px 4px -2px black;
+  }
+  header,footer{
+    background-color:aquamarine;
+  }
